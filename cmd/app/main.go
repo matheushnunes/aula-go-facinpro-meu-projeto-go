@@ -13,5 +13,5 @@ import (
 func main() {
     fmt.Println("🚀 Meu primeiro projeto em Go com estrutura de mercado!")
     hello.SayHello()
-	fmt.Print(fibonacci.Fibonacci(7))
+	fmt.Print("O 7º número de fibonacci é: ", fibonacci.Fibonacci(7))
 }
