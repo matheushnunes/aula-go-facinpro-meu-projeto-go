@@ -6,6 +6,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/seu-usuario/meu-projeto-go/internal/anamnese"
 	"github.com/seu-usuario/meu-projeto-go/internal/fibonacci"
 	"github.com/seu-usuario/meu-projeto-go/internal/hello"
 )
@@ -30,4 +31,7 @@ func main() {
 
 	// Demonstração: imprimir a sequência completa até n
 	fibonacci.PrintSequence(n)
+
+	fmt.Println("-----------------------------")
+	anamnese.Anamnese()
 }
