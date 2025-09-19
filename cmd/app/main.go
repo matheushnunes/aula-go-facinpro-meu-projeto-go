@@ -5,10 +5,10 @@ package main
 // Importa os pacotes necessários
 import (
 	"fmt"
-
 	"github.com/seu-usuario/meu-projeto-go/internal/anamnese"
 	"github.com/seu-usuario/meu-projeto-go/internal/fibonacci"
 	"github.com/seu-usuario/meu-projeto-go/internal/hello"
+	"github.com/seu-usuario/meu-projeto-go/internal/saudacao"
 )
 
 // Função principal do programa
@@ -18,6 +18,7 @@ func main() {
 
 	// Chamada para função de saudação
 	hello.SayHello()
+	fmt.Println("-----------------------------")
 
 	// Demonstração: cálculo do 10º número de Fibonacci
 	n := 10
@@ -34,4 +35,19 @@ func main() {
 
 	fmt.Println("-----------------------------")
 	anamnese.Anamnese()
+
+	fmt.Println("\n\n-----------------------------")
+	fmt.Println("Saudação:")
+
+	mensagem := saudacao.Saudacao("matheus")
+	fmt.Printf(mensagem)
+
+	fmt.Println("\n\n-----------------------------")
+	fmt.Println("Função anônima:")
+	soma := func (n1, n2 int) int {
+		return	n1 + n2
+	}
+	n1 := 2
+	n2 := 3
+	fmt.Printf("A soma de %v + %v = %v", n1, n2, soma(n1, n2))
 }
