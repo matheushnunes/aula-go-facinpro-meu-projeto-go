@@ -5,10 +5,10 @@ package main
 // Importa os pacotes necessários
 import (
 	"fmt"
-	"github.com/seu-usuario/meu-projeto-go/internal/anamnese"
-	"github.com/seu-usuario/meu-projeto-go/internal/fibonacci"
-	"github.com/seu-usuario/meu-projeto-go/internal/hello"
-	"github.com/seu-usuario/meu-projeto-go/internal/saudacao"
+	"meu-projeto-go/internal/anamnese"
+	"meu-projeto-go/internal/fibonacci"
+	"meu-projeto-go/internal/hello"
+	"meu-projeto-go/internal/saudacao"
 )
 
 // Função principal do programa
