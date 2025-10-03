@@ -6,7 +6,7 @@ import (
 )
 
 func Anamnese () {
-	nome := "Matheus Henrique"
+	nome := "Ana Flora"
 	idade := 20
 	peso := 61.35
 	altura := 1.7

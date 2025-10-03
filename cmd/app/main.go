@@ -39,7 +39,7 @@ func main() {
 	fmt.Println("\n\n-----------------------------")
 	fmt.Println("Saudação:")
 
-	mensagem := saudacao.Saudacao("matheus")
+	mensagem := saudacao.Saudacao("Flora")
 	fmt.Printf(mensagem)
 
 	fmt.Println("\n\n-----------------------------")
